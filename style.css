@@ -23,12 +23,40 @@ body{
 .menu{
     padding: 10px;
 }
-.menu a:link, .menu a:visited{
+a:link, a:visited{
     text-decoration: none;
     color: #fff;
     padding: 8px 12px;
 }
-.menu a:hover{
+ a:hover{
     color: #f7b600;
     background: #fff;
+}
+.conteudo{
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+}
+.area-postagens{
+    width: 660px;
+    float: left;
+    background-color: aquamarine;
+}
+.postagem{
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+
+}
+.lateral{
+    width: 240px;
+    float: right;
+    background-color: aqua;
+}
+.rodape{
+    background-color: #ccc;
+    clear: both;
+    text-align: center;
+    padding: 15px;
+
 }
