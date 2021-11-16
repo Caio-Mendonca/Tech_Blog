@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #e6e6e6;
+}
+.cabecalho_pagina{
+    background-color: #f7b600;
+    padding: 15px;
+    text-align: center;
+}
+.titulo{
+    color: #fff;
+    font-size: 2.0em;
+}
+.titulo b{
+    color: #4e4e4e;
+}
+.menu{
+    padding: 10px;
+}
+.menu a:link, .menu a:visited{
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 12px;
+}
+.menu a:hover{
+    color: #f7b600;
+    background: #fff;
+}
