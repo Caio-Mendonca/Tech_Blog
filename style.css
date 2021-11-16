@@ -23,12 +23,12 @@ body{
 .menu{
     padding: 10px;
 }
-a:link, a:visited{
+.menu a:link, .menu a:visited{
     text-decoration: none;
     color: #fff;
     padding: 8px 12px;
 }
- a:hover{
+.menu a:hover{
     color: #f7b600;
     background: #fff;
 }
@@ -40,7 +40,7 @@ a:link, a:visited{
 .area-postagens{
     width: 660px;
     float: left;
-    background-color: aquamarine;
+    padding: 10px;
 }
 .postagem{
     padding: 20px;
@@ -59,4 +59,24 @@ a:link, a:visited{
     text-align: center;
     padding: 15px;
 
+}
+/** Formatações gerais **/
+h2{
+    color: #f7b600
+}
+span{
+    display: block;
+    font-size: 0.8em;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+a{
+    text-decoration: none;
+}
+a:link, a:visited{
+    color: #f7b600;
+}
+a:hover{
+    text-decoration: underline;
 }
