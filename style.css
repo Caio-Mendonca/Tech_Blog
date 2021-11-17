@@ -48,7 +48,7 @@ body{
     background-color: #fff;
 
 }
-.lateral{
+.lateral , .postagem_lateral{
     width: 240px;
     float: right;
     background-color: aqua;
