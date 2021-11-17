@@ -22,6 +22,7 @@ body{
 }
 .menu{
     padding: 10px;
+    color:#fff
 }
 .menu a:link, .menu a:visited{
     text-decoration: none;
@@ -48,10 +49,19 @@ body{
     background-color: #fff;
 
 }
-.lateral , .postagem_lateral{
+.lateral{
     width: 240px;
     float: right;
-    background-color: aqua;
+    background-color: #fff;
+    margin-top: 10px;
+}
+.conteudo_lateral{
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.postagem_lateral{
+    font-size: 0.8em;
+    padding: 5px;
 }
 .rodape{
     background-color: #ccc;
@@ -63,6 +73,11 @@ body{
 /** Formatações gerais **/
 h2{
     color: #f7b600
+}
+h3{
+    color: #565656;
+    background-color: #ccc;
+    padding: 5px;
 }
 span{
     display: block;
