@@ -54,6 +54,7 @@ body{
     float: right;
     background-color: #fff;
     margin-top: 10px;
+    border-radius: 20px;
 }
 .conteudo_lateral{
     padding: 10px;
@@ -78,6 +79,8 @@ h3{
     color: #565656;
     background-color: #ccc;
     padding: 5px;
+    border-radius: 20px;
+    text-align: center;
 }
 span{
     display: block;
